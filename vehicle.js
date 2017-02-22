@@ -32,7 +32,7 @@ Vehicle.prototype.update = function(){
 
 Vehicle.prototype.show = function(){
   stroke(255);
-  strokeWeight(5);
+  strokeWeight(4);
   point(this.pos.x, this.pos.y);
 }
 
